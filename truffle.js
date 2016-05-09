@@ -2,7 +2,6 @@ module.exports = {
   build: {
     "index.html": "index.html",
     "app.js": [
-      "../../node_modules/react/dist/react.js",
       "javascripts/app.js"
 
     ],
@@ -12,7 +11,7 @@ module.exports = {
     "images/": "images/"
   },
   deploy: [
-
+    "FluidEquity"
   ],
   rpc: {
     host: "localhost",
